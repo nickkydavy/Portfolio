@@ -94,3 +94,25 @@ input[type="submit"]{
     text-align: center;
     font-size: 14px;
 }
+
+/* @image_search.html */
+.content{
+    padding-top: 108px;
+}
+
+#logo-image{
+    background: url(/images/googlelogo_color_272x92dp.png);
+}
+
+.logo-subtext{
+    color: #4825f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: relative;
+    top: 76px;
+    left: 110px;
+    white-space: nowrap;
+}
+
+div{
+    display: block;
+}
