@@ -14,12 +14,24 @@ a{
     color: rgba(0, 0, 0, 0.87);
 }
 
+a:hover{
+    opacity: .85;
+    text-decoration: underline;
+}
+
 /* @index.html & image_search.html*/
 .title{
     position: relative;
-    padding-left: 30px;
-    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 15px 30px;
     text-align: right;
     font-size: 13px;
 }
+
+.title .title_link{
+    padding: 0px 10px 0px;
+}
+
+
 
