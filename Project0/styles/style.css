@@ -36,7 +36,7 @@ a:hover{
 #searching{
     display: flex;
     z-index: 3;
-    margin: 0px auto;
+    margin: 30px auto 0px;
     background-color: #fff;
     border: 1px solid #dfe1e5;
     width: auto;
@@ -75,4 +75,22 @@ i.material_icons{
     display: flex;
     flex: 100%;
     font-size: 16px;
+}
+
+.search_button{
+    padding-top: 18px;
+    height: 70px;
+}
+
+input[type="submit"]{
+    background-image: -webkit-gradient(top, #f8f9fa, #f8f9fa);
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    font-size: 14px;
 }
