@@ -1,0 +1,25 @@
+/* All html */
+body, td, a, p{
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background: #fff;
+    color: #202124;
+    font-size: small;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+/* @index.html & image_search.html*/
+.title{
+    position: relative;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
+    font-size: 13px;
+}
+
