@@ -50,11 +50,11 @@ a:hover{
     box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
 }
 
-div #icon{
+/* div #icon{
     display: flex;
     align-items: center;
     padding-left: 15px;
-}
+} */
 
 i.material_icons{
     color: #9aa0a6;
