@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <link rel="stylesheet" href="./styles/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Search</title>
     </head>
     <body>
@@ -18,12 +19,18 @@
             </div>
                 <form action="https://google.com/search">
                     <center>
-                        <div id="searching"><input type="text" name="q"></div>
+                        
+                        <div id="searching">
+                            <div id="icon"><i class="material-icons">search</i></div>
+                            <div id="input_text_search"><input id="text_search" type="text" name="q"></div>
+                        </div>
                     </center>
-                    <center>
-                        <input type="submit" value="Google Search" name="btnK">
-                        <input type="submit" value="I'm feel lucky." name="btnI">
-                    </center>
+                    <div class="search_button">
+                        <center>
+                            <input type="submit" value="Google Search" name="btnK">
+                            <input type="submit" value="I'm feel lucky." name="btnI">
+                        </center>
+                    </div>
                 </form>
         </div>
     </body>
