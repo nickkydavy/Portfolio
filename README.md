@@ -11,7 +11,7 @@ This is my project from learning programming and anything else to practice my pr
 ## What course am I learning now?
 - [CS50's Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) (from CS50)
 - [CS50's Web Programming with Python and Javascript](https://courses.edx.org/courses/course-v1:HarvardX+CS50AI+1T2020/course/) (from [CS50](https://cs50.harvard.edu/web/2020/))  
-- [CS50's Introduction to Artificial Intelligence with Python](https://courses.edx.org/courses/course-v1:HarvardX+CS50AI+1T2020/course/) (from [cs50](https://cs50.harvard.edu/ai/2020/))
+- [CS50's Introduction to Artificial Intelligence with Python](https://courses.edx.org/courses/course-v1:HarvardX+CS50AI+1T2020/course/) (from [CS50](https://cs50.harvard.edu/ai/2020/))
 
 ## Contact
 - Email: p.nimwattana@gmail.com
