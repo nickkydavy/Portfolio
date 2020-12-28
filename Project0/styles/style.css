@@ -135,3 +135,56 @@ input[type="submit"]{
     vertical-align: middle;
     padding: 0 15px 0;
 }
+
+table{
+    padding: 0 20px;
+}
+
+th, td{
+    min-width: 164px;
+    min-height: 41px;
+    border: none;
+    padding: 5px 10px;
+}
+
+tr{
+    min-width: 41px;
+}
+
+th{
+    padding-bottom: 20px;
+}
+
+.intro-box{
+    width: 16%;
+}
+
+th.intro-box, th.description-box{
+    text-align: left;
+    font-size: 16px;
+}
+.input-box{
+    width: 50%;
+}
+
+.input-box div{
+    width: 100%;
+}
+
+.input-box input[type="text"]{
+    width: inherit;
+    height: 30px;
+    padding: 0px 5px;
+    border: 1px solid #9aa0a6;
+    font-size: 15px;
+    
+}
+
+.description-box{
+    width: 32%;
+}
+@media (max-width: 1056px){
+    .description-box span{
+        display: none !important;
+    }
+}

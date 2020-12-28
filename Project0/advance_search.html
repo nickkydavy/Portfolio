@@ -4,10 +4,17 @@
         <link rel="stylesheet" href="./styles/style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <title>Advanced Search</title>
+
+        <!-- Advanced Search Style -->
+        <style>
+            body{
+                font-size: 14px !important;
+            }
+        </style>
     </head>
     <body>
-        <div class="as_title" style="max-width: 154px;">
-            <div class="as_logo">
+        <div class="as_title">
+            <div class="as_logo" style="max-width: 154px;">
                 <a href="./index.html" class="as_a"><img src="./images/googlelogo_color_272x92dp.png" height="33px" width="92px"></a>
             </div>
         </div>
@@ -18,30 +25,30 @@
                 <form action="https://google.com/search">
                     <div class="as_table">
                         <table>
-                            <th>
-                                <td class="intro-box">Find pages with:</td>
-                                <td class="input-box"></td>
-                                <td class="description-box">To do this in the search box.</td>
-                            </th>
+                            <tr>
+                                <th class="intro-box">Find pages with ...</th>
+                                <th class="input-box"></th>
+                                <th class="description-box"><span>To do this in the search box.</span></th>
+                            </tr>
                             <tr>
                                 <td class="intro-box">all these words: </td>
-                                <td class="input-box"><input type="text" name="as_q"></td>
-                                <td class="description-box">Type the important words: tri-colour rat terrier</td>
+                                <td class="input-box"><div><input type="text" name="as_q"></div></td>
+                                <td class="description-box"><span>Type the important words: tri-colour rat terrier</span></td>
                             </tr>
                             <tr>
                                 <td class="intro-box">this exact word or phrase: </td>
-                                <td class="input-box"><input type="text" name="as_epq"></td>
-                                <td class="description-box">Put exact words in quotes: "rat terrier</td>
+                                <td class="input-box"><div><input type="text" name="as_epq"></div></td>
+                                <td class="description-box"><span>Put exact words in quotes: </span><span>"rat terrier</span></td>
                             </tr>
                             <tr>
                                 <td class="intro-box">any of these words: </td>
-                                <td class="input-box"><input type="text" name="as_op"></td>
-                                <td class="description-box">Type OR between all the words you want: miniature OR standard</td>
+                                <td class="input-box"><div><input type="text" name="as_op"></div></td>
+                                <td class="description-box"><span>Type OR between all the words you want: </span><span>miniature OR standard</span></td>
                             </tr>
                             <tr>
                                 <td class="intro-box">none of these words:</td>
-                                <td class="input-box"><input type="text" name="as_eq"></td>
-                                <td class="description-box">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell"</td>
+                                <td class="input-box"><div><input type="text" name="as_eq"></div></td>
+                                <td class="description-box"><span>Put a minus sign just before words </span><span>that you don't want: </span><span>-rodent, -"Jack Russell"</span></td>
                             </tr>
                         </table>
                     </div>
