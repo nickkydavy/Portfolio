@@ -1,0 +1,11 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    Search Result: {{ search_result }}
+{% endblock %}
+
+{% block body %}
+    {% if search_result %}
+        Search Results: {{ search_result }}    
+    {% endif %}
+{% endblock %}
