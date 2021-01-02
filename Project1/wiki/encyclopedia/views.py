@@ -37,13 +37,18 @@ def search_entry(request):
         form = SearchForm(request.POST)
         if form.is_valid():
             search = form.cleaned_data['q']
+            search_entry = []
             for entry in util.list_entries():
-                if search == entry:
-                    return HttpResponseRedirect(f"../wiki/{search}")
-            return render(request, "encyclopedia/search_entry.html", {
+                if search in entry:
+                    search_entry.append(entry)
+
+            if len(search_entry) > 1:
+                return render(request, "encyclopedia/search_entry.html", {
                 "search_result": search,
-                "form": form
+                "form": form,
+                "search_list": search_entry
             })
+            return HttpResponseRedirect(f"../wiki/{search}")
 
     return render(request, "encyclopedia/index.html", {
         "form": SearchForm()
