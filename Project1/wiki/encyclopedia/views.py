@@ -48,7 +48,7 @@ def search_entry(request):
                 "form": form,
                 "search_list": search_entry
             })
-            return HttpResponseRedirect(f"../wiki/{search}")
+            return HttpResponseRedirect(f"../wiki/{search_entry[0]}")
 
     return render(request, "encyclopedia/index.html", {
         "form": SearchForm()
